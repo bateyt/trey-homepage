@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs # We set this to 'docs' for easy GitHub Pages deployment
+
+website:
+  title: "Trey Batey"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - text: "Research" # New main navigation item
+        menu: # Sub-menu items for Research
+          - text: "Projects"
+            href: research-projects.qmd
+          - text: "Publications"
+            href: publications.qmd
+    right:
+      - icon: github
+        href: https://github.com/bateyt # Replace with your GitHub
+  
+  # Configuration for the site's default style
+  page-footer:
+    right: "Built with Quarto"
+    left: "© 2024 Trey Batey"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css # For custom CSS (if you want later)
+    toc: true # Table of contents on pages

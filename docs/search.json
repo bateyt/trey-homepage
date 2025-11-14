@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "trey-homepage",
+    "section": "",
+    "text": "This is my new website."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "This is where I will list publications."
+  },
+  {
+    "objectID": "publications.html#papers",
+    "href": "publications.html#papers",
+    "title": "Publications",
+    "section": "",
+    "text": "This is where I will list publications."
+  },
+  {
+    "objectID": "publications.html#presentations",
+    "href": "publications.html#presentations",
+    "title": "Publications",
+    "section": "Presentations",
+    "text": "Presentations\nThis is where I will list presentations."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "research-projects.html",
+    "href": "research-projects.html",
+    "title": "Research Projects",
+    "section": "",
+    "text": "This is where I will describe my current research projects.\n\n\n… details here …"
+  },
+  {
+    "objectID": "research-projects.html#current-and-past-work",
+    "href": "research-projects.html#current-and-past-work",
+    "title": "Research Projects",
+    "section": "",
+    "text": "This is where I will describe my current research projects.\n\n\n… details here …"
+  }
+]
