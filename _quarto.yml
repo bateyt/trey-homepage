@@ -10,6 +10,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: blog.qmd
+        text: Blog
       - text: "Research" # New main navigation item
         menu: # Sub-menu items for Research
           - text: "Projects"

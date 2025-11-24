@@ -1,0 +1,48 @@
+---
+title: "Welcome back to coding: paleodemography with R"
+author: "Trey Batey"
+date: "2025-11-14"
+categories: [R, Test] 
+---
+
+I am excited to dive back into **paleodemography** using modern R tools! A classic way to visualize mortality data from skeletal samples is the \(l_x\) survivorship curve. This plot shows the proportion of individuals surviving to the start of each age interval.
+
+Below is an interactive survivorship curve created using the **tidyverse** and the **plotly** package. You can hover over the line to see the exact values!
+
+```{r}
+#| label: survivorship-plot
+#| echo: false       # Hides the R code from the final output
+#| message: false    # Suppresses package loading messages
+#| warning: false
+#| out-width: "90%"  # Controls the width of the plot
+#| fig-height: 7     # Sets the height of the plot
+
+# Load necessary libraries
+library(tidyverse)
+library(plotly)
+
+# --- 1. SAMPLE DATA ---
+# Assume 'age' is the start of the age interval and 'lx' is the survivorship probability (proportion)
+demog_data <- tibble(
+  age = c(0, 5, 10, 20, 30, 40, 50, 60, 70, 80),
+  lx = c(1.00, 0.95, 0.94, 0.90, 0.85, 0.70, 0.45, 0.20, 0.05, 0.00)
+)
+
+# --- 2. CREATE GGPLOT ---
+# Create the base plot using ggplot2
+base_plot <- demog_data %>% 
+  ggplot(aes(x = age, y = lx)) +
+  geom_line(linewidth = 1.2, color = "#2c3e50") +
+  geom_point(size = 3, color = "#2c3e50") +
+  labs(
+    title = "Model Survivorship Curve ($l_x$)", 
+    x = "Age (Years)",
+    y = "Proportion Surviving ($l_x$)"
+  ) +
+  theme_minimal() +
+  scale_y_continuous(limits = c(0, 1), labels = scales::percent)
+
+# --- 3. CONVERT TO PLOTLY ---
+# Use ggplotly() to make the static ggplot interactive
+ggplotly(base_plot, tooltip = c("age", "lx"))
+```

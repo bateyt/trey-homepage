@@ -1,0 +1,12 @@
+---
+title: "Blog: Updates and Musings"
+listing:
+  contents: posts # 1. LOOK HERE for files
+  sort: "date desc" # 2. SORT by date, newest first
+  type: default # 3. STYLE (can be `default`, `table`, or `grid`)
+  categories: true # 4. SHOW categories on the listing
+  sort-ui: false # HIDE the sorting/filtering UI (set to true to enable it)
+  filter-ui: true # SHOW the filtering UI
+page-layout: full
+title-block-banner: true
+---
