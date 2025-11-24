@@ -60,6 +60,6 @@
     "href": "posts/2025-11-14-welcome-back.html",
     "title": "Welcome back to coding: paleodemography with R",
     "section": "",
-    "text": "I am excited to dive back into paleodemography using modern R tools! A classic way to visualize mortality data from skeletal samples is the (l_x) survivorship curve. This plot shows the proportion of individuals surviving to the start of each age interval.\nBelow is an interactive survivorship curve created using the tidyverse and the plotly package. You can hover over the line to see the exact values!"
+    "text": "Hooray! I am excited to dive back into paleodemography using modern R tools! A classic way to visualize mortality data from skeletal samples is the (l_x) survivorship curve. This plot shows the proportion of individuals surviving to the start of each age interval.\nBelow is an interactive survivorship curve created using the tidyverse and the plotly package. You can hover over the line to see the exact values!"
   }
 ]
