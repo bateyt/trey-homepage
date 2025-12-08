@@ -29,6 +29,6 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css # For custom CSS (if you want later)
     toc: true # Table of contents on pages

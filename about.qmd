@@ -2,8 +2,32 @@
 title: "About"
 ---
 
-About this site
+### Bioarchaeology, Data, and Discovery
 
-```{r}
-1 + 1
-```
+Welcome! I am **Trey Batey**, a bioarchaeologist specializing in **paleodemography**—the study of mortality and population structure in past human societies, primarily through skeletal remains. My research focuses on using demographic modeling and advanced statistical techniques to reconstruct life histories and understand how disease, environment, and social change impacted ancient communities.
+
+#### Expertise and Tools
+
+My academic background is rooted in the social sciences (anthropology and sociology), which provides the framework for my research questions. I am an enthusiastic user of the **R language** and the **tidyverse** ecosystem for all phases of my work, from data cleaning and statistical modeling to generating complex visualizations and reports.
+
+I believe in the power of open science and use tools like **Quarto** (which powers this website) and **GitHub** to share my projects, code, and findings transparently.
+
+### Teaching
+
+In 2015, I joined [Lower Columbia College](https://lowercolumbia.edu) as a full-time instructor. Since then, I've taught introductory courses in anthropology and sociology.
+
+- ANTH& 100--Survey of Anthropology
+- ANTH& 204--Archaeology
+- ANTH& 205--Biological Anthropology
+- ANTH& 206--Cultural Anthropology
+- SOC& 101--Introduction to Sociology
+
+For inquires about my teaching, please contact me at [tbatey@lowercolumbia.edu](mailto:tbatey@lowercolumbia.edu)
+
+### Life and What Not
+
+When I'm not working, you can find me playing my drums, reading a book, spending time with family and friends, or finding a trail with the doggo.
+
+---
+
+**Interested in collaborating?** Please visit my [Research page](research-projects.qmd) or check out my [Blog](blog.qmd) for recent updates.
